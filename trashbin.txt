@@ -1,0 +1,683 @@
+ confirm_password: "",
+ 
+reduxpost(
+      "https://blueboat.bluenileboat.com/api/login",
+      formdata,
+      setinfo,
+      setloading,
+      dispatch,
+    );
+ 
+   console.log(response.data);
+      setData(response.data);
+ 
+err
+ 
+ console.log("object",token)
+ 
+""
+ 
+"password"
+ 
+/>
+ 
+true
+ 
+Confirm password
+ 
+.email[0]
+ 
+ setMobile("");
+    setEmail("")
+ 
+err.response.data.errors.mobile[0]
+ 
+ mobileErr
+ 
+("mobile"))
+ 
+.includes
+ 
+ toast.error(`${Object.values(err.response.data.errors).join(", ")}`, {
+          duration: 3000,
+          position: "top-center",
+        });
+        console.log(err);
+ 
+errorMessages
+ 
+${}
+ 
+return (
+            <ul>
+              <li>{item}</li>
+            </ul>
+ 
+join(", ")
+ 
+``
+ 
+opacity
+ 
+"Something Went Wrong Please check ur inputs"
+ 
+Name
+ 
+ const all_tickets = [];
+  console.log(data);
+  data?.tickets?.forEach((reservation) => {
+    all_tickets.push(...reservation.tickets);
+  });
+ 
+left
+ 
+me-auto > a
+ 
+.active {
+  background-color: #3805a8;
+}
+ 
+.active {
+  background-color: #3805a8;
+}
+ 
+esString = valuesArray.join(", ");
+        // console.log(valuesString);
+ 
+onsole.log(valuesArray.join(" "));
+ 
+console.log(valuesArray);
+ 
+flat()
+          .map((value) => `"${value}"`);
+ 
+${phoneerror.map((item) => {
+            return item[0];
+          })}
+ 
+ toast.error(
+          // `${phoneerror.map((item) => {
+          //   return item[0];
+          // })}`,
+          {
+            duration: 3000,
+            position: "top-center",
+          }
+        );
+ 
+console.log(err.response.data);
+ 
+.join("");
+ 
+console.log(err.response.data.message);
+ 
+err.response.data.message.mobile[0]
+ 
+toast.error(
+          `${
+            err.response.data.message
+              ? err.response.data.message
+              : ""
+          }`,
+          {
+            duration: 3000,
+            position: "top-center",
+          }
+        );
+ 
+.mobile[0]
+ 
+.mobile[0]
+ 
+err.response.data.message.mobile[0]
+              ? err.response.data.message.mobile[0]
+              : 
+ 
+See All Ticket Details
+ 
+     <Button
+                  style={{ textAlign: "center" }}
+                  onClick={() => setdetails(false)}
+                >
+                  Return Back
+                </Button>
+ 
+border:"1px solid blue"
+ 
+  <div className="">
+                  {" "}
+ 
+w-100
+ 
+{" "}
+ 
+{" "}
+ 
+See Person Tickets Details
+ 
+tickets.length
+ 
+  const tic = tickets.map((item) => {
+    return [...item.tickets];
+  });
+ 
+ [...item.tickets]
+ 
+ console.log(res.data.data);
+ 
+""
+ 
+ ""
+ 
+""
+ 
+ const children = React.Children.map(props.children, (child) => {
+    return React.cloneElement(child, {
+      count: count,
+      setcount: setcount,
+    });
+  });
+ 
+{ setcount, count }
+ 
+const [count, setcount] = useState(
+    `${
+      myPath.pathname === "/"
+        ? "Home"
+        : myPath.pathname.slice(1, myPath.pathname.length)
+    }`
+  );
+ 
+props
+ 
+ const [count, setcount] = useState(
+    `${
+      myPath.pathname === "/"
+        ? "Home"
+        : myPath.pathname.slice(1, myPath.pathname.length)
+    }`
+  );
+ 
+ <div className="loader1"></div>
+ 
+WithProps
+ 
+  const childrenWithProps = React.Children.map(children, (child) => {
+    if (React.isValidElement(child)) {
+      return React.cloneElement(child, { count: count });
+    }
+    return child;
+  });
+ 
+  const children = React.Children.map(props.children, (child) => {
+    return React.cloneElement(child, {
+      count: count,
+      setcount: setcount,
+    });
+  });
+ 
+d
+ 
+div
+ 
+div
+ 
+<Col md={12}>
+              <Col md={6}>jj</Col>
+              <Col md={6}>jj</Col>
+            </Col>
+ 
+<div className="loader1"></div>
+ 
+style={{width:"100%",display:"flex",justifyContent:"center"}}
+ 
+l
+ 
+l
+ 
+myValue
+ 
+li
+ 
+"ahmed",
+                2000,
+ 
+"Two", // Deletes 'One' and types 'Two'
+                1000, // Waits 2s
+                "Two Three", // Types 'Three' without deleting 'Two'
+ 
+  const x = "";
+  let newStr = text.substring(0, text.length - 1);
+ 
+console.log(text.slice(0, -1));
+ 
+%PUBLIC_URL%/favicon.ico
+ 
+React App
+ 
+slideimage1
+ 
+MarckScript-Regular
+ 
+p
+ 
+style={{fontFamily:"MarckScript-Regular"}}
+ 
+Roboto/Roboto-MediumItalic
+ 
+Sen/Sen-Bold
+ 
+Poppins-Bold
+ 
+LibreBaskerville-Bold.ttf
+ 
+libre Baskerville
+ 
+ <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+ 
+Nulla vitae elit libero, a pharetra augue mollis interdum
+ 
+The definition of clubbing
+ 
+First slide label
+ 
+   style={{
+            background: "transparent",
+            color: "white",
+            border: "none",
+            borderBottom: "2px solid gray",
+            borderr
+          }}
+ 
+aco
+ 
+style={{ display: "flex", justifyContent: "space-around" }}
+ 
+<MoonLoader color="#36d7b7" />
+ 
+customToastStyle
+ 
+style={{marginBottom:"60px"}}
+ 
+border:"5px solid green"
+ 
+Updated Successfully
+ 
+mobile
+ 
+bg="dark
+ 
+back
+ 
+a
+ 
+error
+ 
+In
+ 
+console.log(err)
+ 
+console.log(phoneerror);
+ 
+Object.keys(
+ 
+[0]
+ 
+.join("");
+ 
+blue
+ 
+3805a8
+ 
+${
+                    item === "Account" ? "account" : ""
+                  } 
+ 
+Linka
+ 
+${item === count ? "active" : ""}
+ 
+{item}
+ 
+width: 100px !important;
+    height: 80px !important;
+ 
+a
+ 
+.active {
+  background-color: #3805a8;
+}
+ 
+Linka
+ 
+,justifyContent:"space-around"
+ 
+width:"fit-content"
+ 
+border:"1px solid blue"
+ 
+border:"1px solid green",
+ 
+  .mynav {
+    /* display: flex;
+    justify-content: space-between !important; */
+  }
+ 
+around
+ 
+   </Container>
+      <Container>
+ 
+phoneerror
+ 
+and Date
+ 
+ and Enter valid date
+ 
+You can deserve a day from the future only
+ 
+  const errors = theError.map((item) => {
+            const z = item.split(".");
+            return z[2];
+          });
+          const realErros = errors.filter((item) => {
+            return item !== undefined;
+          });
+
+          const stringError = realErros.join(" , ");
+          console.log(stringError);
+          toast.error(
+            `Please Check ${stringError} ${
+              phoneerror.includes("day") ? ", day " : ""
+            } Fields`,
+            {
+              duration: 3000,
+              position: "top-center",
+            }
+          );
+ 
+ const theError = Object.keys(err.response.data.message)
+            .join(",")
+            .split(",");
+ 
+Form
+ 
+Form
+ 
+{true}
+ 
+  toast.error(`Enter correct phone Inputs`, {
+              duration: 3000,
+              position: "top-center",
+            });
+ 
+={true}
+ 
+={true}
+ 
+console.log(errors);
+ 
+console.log(theError);
+ 
+const myarr = theError.split(",");
+ 
+console.log(myarr);
+ 
+Enter correct phone Inputs
+ 
+ onChange={(e) => setTo(e.target.value)}
+ 
+This is a {variant} alert—check it out!
+ 
+key={variant}
+ 
+{" "}
+ 
+ // const message = Object.keys(err.response.data.message)[0];
+        // const messagearr = message.split(".");
+        // const index1 = +messagearr[1];
+        // seterrorindex(index1);
+        // console.log(errorIndex)
+        //  console.log(err.response.data.message);
+        //   const thephone1 = Object.keys(err.response.data.message);
+        //   const z = thephone1.some((item) => {
+        //     return item.includes("phone");
+        //   });
+ 
+.join("")
+ 
+[...Object.keys(err.response.data.message)]
+ 
+ === index
+ 
+console.log();
+ 
+-1
+ 
+[0]
+ 
+Object.keys(
+ 
+)[0]
+ 
+typeof
+ 
+console.log(z[1]);
+ 
+fontdiff
+ 
+fontdiff
+ 
+to=""
+ 
+to=""
+ 
+to=""
+ 
+to=""
+ 
+success
+ 
+Acount Created Succefully
+ 
+ console.log(err);
+ 
+/fonts/OpenSans-Regular.ttf
+ 
+.active {
+  background-color: #3805a8;
+}
+ 
+Linka
+ 
+Signed out Succefully
+ 
+" "}
+ 
+{loading ? <ClipLoader size={15} /> : 
+ 
+ ) : (
+          <MoonLoader color="#36d7b7" />
+
+        )}
+ 
+""
+ 
+<Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Phone</Form.Label>
+          <Form.Control type="message" placeholder="Enter Phone Number" />
+        </Form.Group>
+ 
+    <FormControl.Feedback type="invalid">
+          Please enter a valid email address.
+        </FormControl.Feedback>
+ 
+sy
+ 
+div
+ 
+<Form.Text className="text-muted">
+            We'll never share your email with anyone else.
+          </Form.Text>
+ 
+
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formBasicCheckbox">
+          <Form.Check type="checkbox" label="Check me out" />
+        </Form.Group>
+ 
+,"Gallery"
+ 
+Signed out Succefully
+ 
+message
+ 
+response.data.message
+ 
+Succefully
+ 
+alert(err);
+ 
+console.log(4444)
+ 
+de
+ 
+event
+ 
+   <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td colSpan={2}>Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+ 
+console.log(res.data.data)
+ 
+ChangePassword
+ 
+useSelecstate) => state.auth);
+ 
+flex
+ 
+mx-1
+ 
+mx-2
+ 
+ mx-2
+ 
+ mx-2
+ 
+ <li>
+                <Link to="">Home</Link>
+              </li>
+ 
+" "}
+ 
+mt-1 
+ 
+mt-1
+ 
+mt-1
+ 
+flex
+ 
+flex
+ 
+{" "}
+ 
+zamalek
+ 
+BOAT
+ 
+BAR
+ 
+          your first choice due to a well-deserved record of honesty,
+                  professionalism, experience, innovation, flexibility, customer
+                  service and the most importantly is the actual results
+ 
+zamalek
+ 
+className="flex"
+ 
+flex2
+ 
+zamalek
+ 
+{" "}
+ 
+ <Form className="reserveForm ">
+          <Form.Group className="mb-3 " controlId="formBasicEmail">
+            <Form.Control
+              type="date"
+              onChange={(e) => setDay(e.target.value)}
+            />
+          </Form.Group>
+        </Form>
+        <Form className="reserveForm ">
+          <Form.Label>FROM</Form.Label>
+          <Form.Group className="mb-3 " controlId="formBasicEmail">
+            <Form.Control
+              type="time"
+              onChange={(e) => setFrom(e.target.value)}
+            />
+          </Form.Group>
+        </Form>
+        <Form className="reserveForm ">
+          <Form.Label>To</Form.Label>
+
+          <Form.Group className="mb-3 " controlId="formBasicEmail">
+            <Form.Control type="time" onChange={(e) => setTo(e.target.value)} />
+          </Form.Group>
+        </Form>
+ 
+  const [From, setFrom] = useState("");
+  const [To, setTo] = useState("");
+  const [Day, setDay] = useState("");
+ 
+day: Day,
+      from: From,
+      to: To,
+ 
+<div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+        {images?.map((item) => {
+          return (
+            <img
+              alt=""
+              src={`https://blueboat.bluenileboat.com/public/uploads/partition/${item.image}`}
+              style={{
+                width: "100px",
+                height: "100px",
+                border: "2px solid white",
+              }}
+              onClick={() => setImage(`${item.image}`)}
+            />
+          );
+        })}
+      </div>
+ 
+images
+ 
+<EventDetails />
+ 
+import { useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
+import axios from "axios";
+import EventReservation from "./EventReservation";
+import EventSelection from "./EventSelection";
+ 
