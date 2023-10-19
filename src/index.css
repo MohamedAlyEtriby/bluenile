@@ -43,6 +43,9 @@ code {
   font-family: "MarckScript-Regular";
   font-size: 30px !important;
 }
+.active {
+  background-color: #3805a8;
+}
 @media (min-width: 990px) {
   .link1 {
     color: white;
@@ -52,9 +55,7 @@ code {
     padding: 20px 25px;
     margin-bottom: 20px;
   }
-  .active {
-    background-color: #3805a8;
-  }
+  
   .custom-toast-container {
     width: 270px;
     min-height: 50px;

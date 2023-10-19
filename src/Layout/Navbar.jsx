@@ -30,7 +30,7 @@ function MyNavbar({ setcount, count }) {
                     exact
                     activeClassName="active"
                     onClick={() => setcount(item)}
-                    className={`${item === count ? "active" : ""} `}
+                    className={`${item === count ? "active" : ""} Linka link1`}
                   >
                     <span
                       className={` ${item === "Account" ? "account" : ""} `}
