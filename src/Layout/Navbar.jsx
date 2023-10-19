@@ -22,14 +22,15 @@ function MyNavbar({ setcount, count }) {
           <Nav className="me-auto">
             {arr.map((item, index) => {
               return (
-                <Fade>
+                <div style={{margin:"10px 0px"}}>
                   <Link
                     key={index}
                     to={`/${index !== 0 ? item : ""}`}
+                    style={{marginBottom:"20px",padding:"10px"}}
                     exact
                     activeClassName="active"
                     onClick={() => setcount(item)}
-                    className={`${item === count ? "active" : ""} Linka link1`}
+                    className={`${item === count ? "active" : ""} `}
                   >
                     <span
                       className={` ${item === "Account" ? "account" : ""} `}
@@ -37,7 +38,7 @@ function MyNavbar({ setcount, count }) {
                       {item}
                     </span>
                   </Link>
-                </Fade>
+                </div>
               );
             })}
           </Nav>
